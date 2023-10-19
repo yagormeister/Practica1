@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Hola Usuario"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/escribe_tu_nombre"
+        app:layout_constraintTop_toBottomOf="@id/saludo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"/>
+
+    <EditText
+
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:lineBreakStyle="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saludo"
+        app:layout_constraintVertical_bias=".1"
+        android:maxLines="1"
+        android:singleLine="true"
+         />
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        app:layout_constraintTop_toBottomOf="@id/etNombre"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="15dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

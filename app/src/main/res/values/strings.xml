@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Primera_Practica</string>
+    <string name="hola_usuario">Hola Usuario</string>
+    <string name="title_activity_respuesta">RespuestaActivity</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="escribe_tu_nombre">Escribe tu nombre:</string>
+</resources>
