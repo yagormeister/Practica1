@@ -26,19 +26,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias=".15" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Necesitamos saber la fecha de tu cumpleaños"
-        android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@id/txRespuesta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAlignment="center"
-        app:layout_constraintVertical_bias=".2"
-        />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

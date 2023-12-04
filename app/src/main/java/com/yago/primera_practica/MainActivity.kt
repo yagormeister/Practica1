@@ -23,16 +23,6 @@ class MainActivity : ComponentActivity() {
         val etNombre = findViewById<EditText>(R.id.etNombre)
         val boton = findViewById<Button>(R.id.boton)
 
-       /*    //una manera usando una funcion dentro de este propio fichero
-        boton.setOnClickListener {
-            var nombre = etNombre.text.toString()
-            respuesta(nombre)
-        } */
-
-
-
-        //otra manera usando intents y llamada y envio de datos a otro fichero
-
 
        boton.setOnClickListener {
             var nombre = etNombre.text.toString()
